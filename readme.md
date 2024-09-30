@@ -18,7 +18,7 @@ In this lab you will build a server-side web application which genersates psages
 
 3. Install dependencies
 
-   `pip install fastapi uvicorn['standard'] jinja2 python-multipart https`
+   `pip install fastapi uvicorn['standard'] jinja2 python-multipart httpx`
 
 4. Add `main.py` to the app folder, with the starter code from lab 1:
 
