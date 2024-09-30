@@ -1,4 +1,4 @@
-# Lab 3: Dynamic Content
+# Lab 3: Server-side Dynamic Content
 
 
 
