@@ -300,6 +300,7 @@ Open `app/main.py` and add the following dependencies after the existing ones. T
 
 ```python
 import httpx
+from contextlib import asynccontextmanager
 import json
 from starlette.config import Config
 
