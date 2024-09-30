@@ -311,6 +311,8 @@ config = Config(".env")
 
 We also need a way to access the API from our code. Add the following just after the imports and modify the exising `app = FastAPI()` as shown. This will add the ability to make Asynchronous requsts to APIs, etc. (Don't worry about the details of this for now!)
 
+**This requires the latest Python release, version 3.12.x**
+
 ```python
 @asynccontextmanager
 async def lifespan(app: FastAPI):
