@@ -48,7 +48,10 @@ app.mount(
 )
 ```
 
-
+5. Run the application on TCP port 5000
+   ```bash
+   uvicorn app.main:app --reload --port=5000
+   ```
 
 ## 2. Add site pages
 
