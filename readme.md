@@ -192,7 +192,7 @@ Any content generated in the browser is client-side. This is usually achieved vi
 
 This example will use JavaScript to compare server and client side generated content.
 
-**`/static/js/browserTime.js`** contains the `getTime()` and `updateBrowserTime()`functions which will be used to display a realtime clock in the index.html. Use a `script` element to add this script to `index.html`.
+**`/static/js/browserTime.js`** contains the `getTime()` and `updateBrowserTime()`functions which will be used to display a realtime clock in the index.html. Use a `script` element to add this script to `index.html`. This script was not included in the `dependencies.html` partial as it only applies to this page.
 
 ![JS browser time functions](assets/script_js.png)
 
